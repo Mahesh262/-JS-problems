@@ -1,0 +1,51 @@
+function even (n){
+     console.log(n.length)
+      if(n % 2== 0){
+         console.log(`${n} x is even`)
+       } else if((Number(n)) && n% 2!=0){
+        console.log(`${n} is odd`)
+
+       } else{
+          console.log("enter valid NUmber")
+       }
+    
+  }
+  even('abcd')
+  
+  
+  //  function pailndrome(n){
+//     let str = n.length;
+//       for(let i=0; i<str/2; i++){
+//           if(n[i] != n[str-1-i]){
+//              console.log("Not palindeome")
+//           } else{
+//               console.log("palindrome")
+//           }
+          
+//       }
+
+//  }
+  // pailndrome("abcdcba")
+  
+  
+  
+  
+   function isprime(n){
+  //     if(n== 1 || n ==0){
+  //        return 'false'
+  //     }
+
+  //     for(let i=2; i<n; i++){
+  //       if(n % i == 0) return false;
+  //     }
+  //        return true;
+
+  //       }
+
+  //  var r =10;
+  //    for(let i=0; i< r; i++){
+  //      if(isprime(i)){
+  //         console.log(i)
+  //      }
+  //    }
+  //   isprime(10)
